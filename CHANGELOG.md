@@ -2,10 +2,11 @@
 
 ---
 
-## Master
+## 0.14.0
 
 ### New Features
 
+- You can now include entire Swift files in Swift templates
 - You can now use AutoEquatable with annotations
 - Content from multiple file annotations will now be concatenated instead of writing only the latest generated content.
 
@@ -39,6 +40,7 @@ line two
 
 ### Bug fixes
 
+- Fixed parsing associated enum cases in Xcode 10 
 - Fixed AutoEquatable access level for `==` func
 - Fixed path of generated files when linked to Xcode project
 - Fixed extraction of inline annotations in multi line comments with documentation style
